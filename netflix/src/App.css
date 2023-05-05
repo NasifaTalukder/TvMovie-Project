@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.main_wrapper {
+  background: rgb(19, 19, 19);
+  width: 100%;
+  height: 2000px;
+}
+.container{
+  margin: auto;
+  width: 1200px;
+}
+.menuLogo img {
+  width: 280px;
+}
+
+.menu ul li {
+  list-style: none;
+  padding-left: 30px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color:#fff;
+  font-size: 16px;
+}
+.menuSec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu {
+  display: flex;
+  margin-top: 36px;
+  justify-content: start;
+  margin-right: 280px;
+}
+
+.menuCompo {
+  margin-left: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+  margin-right: 50px;
+}
+
+.menuCompo i {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.menuLogo {
+  width: 11%;
+}
+.heroImg{
+  position: relative;
+}
+.heroImg img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  /* box-shadow: 0px 0px 22px 2px #ddd; */
+}
+.hero_overlay {
+  width: 1200px;
+  height: 677px;
+  background: #2e2c2ca7;
+  position: absolute;
+  top:116px;
+  border-radius: 6px;
+  background-position: center center;
+  background-size: cover;
+  margin: auto;
+}
+.content {
+  margin-top: 250px;
+  margin-left: 100px;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.content button {
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  margin-top: 10px;
+  background: rgb(44, 17, 68);
+  color: #fff;
+}
+.content button:hover{
+  background-color: rgb(109, 25, 187);
+}
+.topRate_heading {
+  color: #fff;
+}
+
+.cardWrapper {
+  margin-top: 20px;
+}
+
+.FRow_card {
+  width: 190px;
+  height: 345px;
+  background: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border:2px solid blueviolet;
+  margin-top: 18px;
+}
+
+.FRow_cardImg img {
+  width: 170px;
+  margin-top: 12px;
+}
+
+.FRow_cardImg {
+  text-align: center;
+}
+
+.movieName {
+  text-align: center;
+}
+.release{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 15px;
+}
+/* .topRate_card {
+  margin-top: 20px;
+} */
+/* .topRate_card{
+  margin-left: 20px;
+} */
+
+
+/* ---------------mobile display---------
+@media screen and (min-device-width : 320px)and (max-device-width:480px)
+{
+  .container {
+    width: 750px;
+    margin: auto;
+}
+
+.main_wrapper {
+    height: 1500px;
+    width: 209%;
+}
+.hero_overlay {
+  width: 751px;
+  height: 423px;
+  background: #2e2c2ca7;
+  position: absolute;
+  top: 116px;
+  border-radius: 6px;
+  background-position: center center;
+  background-size: cover;
+  margin: auto;
+}
+  .menu{
+    display: none;
+  }
+  .menuCompo {
+    display: none;
+  }
+  .menuicon{
+    display: block;
+  }
+  .menuicon{
+    font-size: 30px;
+    margin-right: 100px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+}
+/* --------------tablet display-------- */
+/*@media screen and (max-width: 481px)and (max-width:768px){
+  .container{
+  margin: auto;
+  width: 1000px;
+}
+.hero_overlay {
+  width: 1000px;
+  height: 565px;
+  background: #2e2c2ca7;
+  position: absolute;
+  top:116px;
+  border-radius: 6px;
+  background-position: center center;
+  background-size: cover;
+  margin: auto;
+}
+.menu{
+  display: none;
+}
+.main_wrapper {
+  background: rgb(19, 19, 19);
+  width: 152%;
+  height: 2000px;
+}
+.menuCompo {
+  display: none;
+}
+.menuicon{
+  color: #fff;
+  font-size: 45px;
+  margin-right: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.menuicon:hover{
+  width: 200px;
+  height: 100px;
+  background-color: aqua;
+}
+}
+/* -------------laptop display----------- */
+/*@media screen and (min-device-width : 769px)and (max-width:1024px)
+{
+  .menuicon{
+    display: none;
+  }
+}
+/* ---------------dekstop display------- */
+/*@media screen and (min-device-width : 1025px)and (max-width:1200px)
+{
+  .menuicon{
+    display: none;
+  }
+}
+/* ------------extra large-------- */
+/*@media screen and (min-device-width : 1201px)and (max-width:3000px)
+{
+  .menuicon{
+    display: none;
+  }
+}
+
+*/
