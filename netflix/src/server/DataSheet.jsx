@@ -1,4 +1,3 @@
-import TvMovie from "../assets/TvMovie logo.png";
 let DataSheet=[
     {
         srcImg:"https://cdn.tv.movie/images/movie/228246/poster-193x290.jpg",

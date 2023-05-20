@@ -18,9 +18,9 @@ const MenuSec=()=>{
               </nav>
               
             </div>
-            {/* <div className="menuicon">
+            <div className="menuicon">
             <i className="fa fa-bars" aria-hidden="true"></i>
-            </div> */}
+            </div>
             <div className="menuCompo">
             <i className="fa fa-search" aria-hidden="true"></i>
             <i className="fa fa-bell-o" aria-hidden="true"></i>
